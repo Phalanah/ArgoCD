@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: nginx:stable
+        # image: nginx:stable
+        image: nginxdemos/hello
         ports:
         - containerPort: 80
 
